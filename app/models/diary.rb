@@ -1,7 +1,7 @@
 class Diary < ApplicationRecord
   belongs_to :user
 
-  has_paper_trail
+  has_paper_trail # 編集履歴を有効化
 
   validates :title, :body, :written_on, presence: true
 

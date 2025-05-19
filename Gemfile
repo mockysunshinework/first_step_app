@@ -29,6 +29,8 @@ gem "jbuilder"
 # Use Devise for authentication [https://github.com/heartcombo/devise]
 gem "devise"
 
+gem "paper_trail"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
